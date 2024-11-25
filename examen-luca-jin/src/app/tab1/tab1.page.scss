@@ -1,0 +1,47 @@
+/* Aplica a todos los elementos, excepto los que tienen las clases o etiquetas específicas */
+body * {
+  /* Estilos generales para todos los elementos */
+  font-family: Arial, sans-serif;
+  color: #333;
+  
+}
+
+
+/* Excluye las clases específicas que no deben verse afectadas */
+.titulo {
+  text-align: center;
+  color: inherit; /* Mantiene el color original */
+}
+
+ion-card {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ion-card img {
+  object-fit: cover;
+  height: 50%;
+  width: 100%;
+}
+
+ion-card-header, ion-card-content {
+  padding: 10px;
+}
+
+/* Aplica estilo a otros elementos */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #007bff;
+}
+
+p {
+  font-family: 'Georgia', serif; /* Cambia la tipografía a 'Georgia' */
+  font-size: 1.2rem; /* Aumenta el tamaño de fuente */
+  color: #444; /* Cambia el color del texto */
+  line-height: 1.6; /* Mejora la legibilidad con mayor espacio entre líneas */
+  text-align: justify; /* Justifica el texto */
+}

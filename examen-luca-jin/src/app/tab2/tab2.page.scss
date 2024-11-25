@@ -1,0 +1,26 @@
+.titulo {
+    text-align: center;
+    
+  }
+  
+  ion-card {
+    width: 100%; /* Asegura que las tarjetas usen todo el ancho disponible */
+    height: 650px; /* Ajusta la altura de las tarjetas */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* Asegura que el contenido esté distribuido uniformemente */
+  }
+ 
+  
+  ion-card img {
+    object-fit: cover; /* Asegura que las imágenes cubran el espacio disponible */
+    height: 50%; /* Ajusta la altura de la imagen dentro de la tarjeta */
+    width: 100%;
+  }
+  
+  ion-card-header, ion-card-content {
+    padding: 50px;
+  }
+  
