@@ -1,0 +1,7 @@
+{
+  "name": "examen-luca-jin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
